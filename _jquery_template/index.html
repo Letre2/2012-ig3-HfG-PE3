@@ -11,12 +11,16 @@
 </head>
 
 <body>
-
+  <br>
   <p>Diese zahl wird veränderbar sein:
-    <span class="number-spinner">123</span></p>
-  <button type="button" name="button">drück mich</button>
+    <span class="number-spinner" data-min="0" data-max="1000" data-stepper=10>123</span>
+  </p>
+  <p>
+    Diese auch:
+    <span class="number-spinner" data-min="0" data-max="8" data-stepper=0.1>4.38</span>
+    <button type="button" name="button">drück mich</button>
 
-  <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
